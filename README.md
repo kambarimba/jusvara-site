@@ -142,6 +142,23 @@
   </div>
 </section>
 
+<section class="hero">
+  <h1>Jusvara</h1>
+  <p>Platform Hukum RAG — Legal AI Engineered in Indonesia</p>
+  ...
+</section>
+
+<section id="steps" class="steps">
+
+<!-- Project Table Ultimate -->
+<section id="project-table">
+  <!-- Paste seluruh kode Ultimate di sini -->
+</section>
+
+<!-- Mulai Project Table Ultimate -->
+...kode Ultimate...
+<!-- Selesai Project Table Ultimate -->
+
 <!-- Two-Step Section -->
 <section id="steps" class="steps">
   <h2>Cara Kerja Jusvara</h2>
