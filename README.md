@@ -132,6 +132,150 @@
 </head>
 <body>
 
+<!-- ========================= -->
+<!-- JUSVARA ULTIMATE FRONTEND -->
+<!-- ========================= -->
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Jusvara</h1>
+  <p>Platform Hukum RAG — Legal AI Engineered in Indonesia</p>
+  <div class="cta-buttons">
+    <a href="#steps" class="cta-primary">Mulai Konsultasi</a>
+    <a href="#features" class="cta-secondary">Pelajari Platform</a>
+  </div>
+</section>
+
+<!-- Two-Step / Project Flow Section -->
+<section id="steps" class="steps">
+  <h2>Cara Kerja Jusvara</h2>
+  <div class="step">
+    <h3>1. Ajukan Masalah Hukum</h3>
+    <p>Ketik pertanyaan atau unggah dokumen, cepat dan mudah.</p>
+  </div>
+  <div class="step">
+    <h3>2. Terima Analisis Otomatis</h3>
+    <p>Sistem Hukum-RAG menampilkan jawaban akurat, terstruktur, siap dipahami.</p>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section id="features">
+  <h2>Fitur Utama</h2>
+  <div class="features">
+    <div class="feature-card">
+      <h3>Mesin RAG Hukum Terintegrasi</h3>
+      <p>Memproses data hukum otomatis dengan presisi tinggi.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Jawaban Terverifikasi & Terstruktur</h3>
+      <p>Hasil analisis langsung bisa dipahami masyarakat awam maupun profesional.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Aksesibilitas 24/7</h3>
+      <p>Jusvara siap membantu kapan saja, dari laptop atau HP.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Tingkat Akurasi Profesional</h3>
+      <p>Data dan referensi hukum selalu diperbarui secara berkala.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Project Table Ultimate -->
+<section id="projects" class="projects">
+  <h2>Project Table Ultimate</h2>
+  <table class="project-table">
+    <thead>
+      <tr>
+        <th>Proyek</th>
+        <th>Status</th>
+        <th>Prioritas</th>
+        <th>Deadline</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Integrasi Modul AI</td>
+        <td>Pending</td>
+        <td>Tinggi</td>
+        <td>Des 2025</td>
+      </tr>
+      <tr>
+        <td>Penyempurnaan Frontend</td>
+        <td>Aktif</td>
+        <td>Menengah</td>
+        <td>Nov 2025</td>
+      </tr>
+      <tr>
+        <td>RAG Legal Testing</td>
+        <td>Siap</td>
+        <td>Tinggi</td>
+        <td>Jan 2026</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Ecosystem Section -->
+<section id="ecosystem">
+  <h2>Ekosistem Vertikal AI</h2>
+  <p>Terhubung dengan modul Legal Drafting AI, Case Finder AI, Regulation Explorer, dan Library Hukum Cerdas.</p>
+</section>
+
+<!-- Contact & Footer -->
+<section id="contact">
+  <h2>Kontak & Footer</h2>
+  <p>Email: contact@jusvara.ai</p>
+  <p>© 2025 Jusvara — Platform Hukum RAG</p>
+</section>
+
+<!-- ===== CSS & JS Minimal ===== -->
+<style>
+body { font-family: 'Arial', sans-serif; background:#0A0F1F; color:#FFFFFF; margin:0; padding:0; }
+.hero { text-align:center; padding:80px 20px; background:#081223; }
+.hero h1 { font-size:3em; color:#00B7FF; margin-bottom:15px; }
+.hero p { font-size:1.3em; margin-bottom:30px; }
+.cta-buttons a { display:inline-block; margin:0 10px; padding:15px 30px; border-radius:12px; font-weight:600; transition:all 0.3s ease; box-shadow:0 0 10px rgba(0,183,255,0.5); text-decoration:none; }
+.cta-primary { background-color:#00B7FF; color:#0A0F1F; }
+.cta-primary:hover { background-color:#00E0FF; transform:scale(1.05); box-shadow:0 0 20px rgba(0,224,255,0.8); }
+.cta-secondary { background-color:transparent; border:2px solid #00B7FF; color:#FFFFFF; }
+.cta-secondary:hover { background-color:#00B7FF; color:#0A0F1F; transform:scale(1.05); box-shadow:0 0 15px rgba(0,183,255,0.6); }
+
+.steps { display:flex; flex-direction:column; align-items:center; text-align:center; padding:40px 20px; }
+.step { background:#0C1525; border-radius:15px; padding:30px; margin:15px 0; width:100%; max-width:500px; box-shadow:0 0 20px rgba(0,183,255,0.5); transition:transform 0.3s, box-shadow 0.3s; }
+.step:hover { transform:translateY(-5px); box-shadow:0 0 25px rgba(0,224,255,0.7); }
+.step h3 { color:#00B7FF; }
+
+.features { display:flex; flex-wrap:wrap; justify-content:space-around; padding:40px 20px; }
+.feature-card { background:#0C1525; border-radius:12px; padding:25px; margin:15px; width:280px; box-shadow:0 0 15px rgba(0,183,255,0.3); transition:transform 0.3s, box-shadow 0.3s; }
+.feature-card:hover { transform:translateY(-5px); box-shadow:0 0 25px rgba(0,224,255,0.6); }
+
+.projects { padding:40px 20px; text-align:center; }
+.project-table { width:100%; border-collapse:collapse; margin-top:20px; }
+.project-table th, .project-table td { border:1px solid #00B7FF; padding:12px; text-align:center; }
+.project-table th { background:#081223; color:#00B7FF; }
+
+#ecosystem, #contact { padding:40px 20px; text-align:center; }
+
+@media (max-width:768px) {
+  .features { flex-direction:column; align-items:center; }
+  .feature-card { width:90%; margin:10px 0; }
+  .hero h1 { font-size:2.5em; }
+  .step { width:90%; }
+  .project-table th, .project-table td { font-size:0.9em; padding:8px; }
+}
+</style>
+
+<script>
+// Placeholder JS untuk integrasi backend modul AI
+document.querySelectorAll('.cta-primary').forEach(btn => {
+  btn.addEventListener('click', e => {
+    alert("Modul AI siap integrasi backend. Nanti panggil RAG engine di sini.");
+  });
+});
+</script>
+
 <!-- Hero Section -->
 <section class="hero">
   <h1>Jusvara</h1>
